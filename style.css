@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1502920514313-52581002a659?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 9rem;
+  background-color: #000000a4;
+  color: rgba(255, 255, 255, 0.868);
+  width: 60%;
+  padding: 2em;
+  border: none;
+  border-radius: 1em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.search-wrapper {
+  width: 80%;
+}
+
+.search-wrapper button {
+  font-size: 1em;
+  padding: 0.3em 1em;
+  border: none;
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.834);
+  color: black;
+}
+
+.search-wrapper input {
+  background-color: #ffffffbf;
+  font-size: 1em;
+  padding: 0.5 0.6em;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-wrapper input::placeholder,
+.form-control:focus::placeholder {
+  color: rgba(0, 0, 0, 0.721);
+}
+
+.form-control:focus {
+  background-color: #ffffffc1;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.639);
+}
+
+#result {
+  margin-top: 2em;
+}
+
+.container .flag-img {
+  display: block;
+  width: 50%;
+  margin: 1.8em auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.data-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.data-wrapper h4 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.data-wrapper span {
+  font-size: 1em;
+  margin-left: 0.5em;
+}
